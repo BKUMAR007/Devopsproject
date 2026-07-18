@@ -1,0 +1,5 @@
+Hi this is inside branch
+
+brnaching: Git checkout -b branchName > it cretes the new branch and switches the branch
+git checkout branchname >> this switches to the intended branch
+

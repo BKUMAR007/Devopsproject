@@ -1,0 +1,11 @@
+name : create package
+
+on: 
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build the code
+        run: mvn clean package
